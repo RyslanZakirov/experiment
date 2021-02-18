@@ -1,0 +1,16 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    padding: 20px;
+}
+
+p{
+    margin: 0px;    
+}
