@@ -14,3 +14,10 @@ html, body{
 p{
     margin: 0px;    
 }
+
+.add_content{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background:linear-gradient(45deg ,green, yellow);
+}
