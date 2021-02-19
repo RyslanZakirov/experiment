@@ -15,9 +15,17 @@ p{
     margin: 0px;    
 }
 
-.add_content{
-    width: 100px;
-    height: 100px;
+.work_with_style{
+    width: 200px;
+    height: 200px;
     margin: 10px;
-    background:linear-gradient(45deg ,green, yellow);
+    transition-property: background-color, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: aquamarine;
+}
+
+.work_with_style:hover{
+    background: linear-gradient(55deg, green, blue);
+    border-radius: 20px;
 }
