@@ -29,3 +29,9 @@ p{
     background: linear-gradient(55deg, green, blue);
     border-radius: 20px;
 }
+
+.sentence p{
+    font-size: 25px;
+    color: hotpink;
+    text-shadow: indianred 1px 1px;
+}
